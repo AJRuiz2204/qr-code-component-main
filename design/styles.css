@@ -3,8 +3,56 @@
     --Slate-500: #68778d;
     --Slate-300: #d5e1ef;
     --White: #ffffff;
-    
-    --font-family-primary: 'Oufit Regular';
+
+    --font-family-primary: 'Outfit Regular', sans-serif;
     --font-size-base: 15px;
     --line-height-base: 140%;
+}
+
+body {
+    background-color: var(--Slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: var(--White);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    font-family: var(--font-family-primary);
+}
+
+.qr-image-container {
+    padding: 15px;
+}
+
+.qr-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: calc(var(--font-size-base) * 1.2);
+    color: var(--Slate-900);
+    line-height: var(--line-height-base);
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: var(--font-size-base);
+    color: var(--Slate-500);
+    line-height: var(--line-height-base);
+    margin: 0;
 }
