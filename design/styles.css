@@ -1,0 +1,10 @@
+:root {
+    --Slate-900: #1f314f;
+    --Slate-500: #68778d;
+    --Slate-300: #d5e1ef;
+    --White: #ffffff;
+    
+    --font-family-primary: 'Oufit Regular';
+    --font-size-base: 15px;
+    --line-height-base: 140%;
+}
